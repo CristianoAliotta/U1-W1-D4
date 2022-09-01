@@ -62,7 +62,7 @@ main {
   line-height: 1.3;
 }
 
-article p:nth-child(2) {
+#iconline {
   font-size: 1.05rem;
   color: lightgray;
   height: 8vh;
@@ -150,8 +150,94 @@ tr:nth-child(odd) {
 
 iframe {
   border-radius: 17px;
+  margin: 0 auto;
+  margin-bottom: 3vh;
 }
 
 section {
   background-color: lightgray;
+  box-sizing: border-box;
+  padding: -10px;
+  text-align: center;
+  height: 20vh;
+}
+
+section h2 {
+  text-align: center;
+  font-weight: bold;
+  font-size: larger;
+  text-transform: uppercase;
+  line-height: 3;
+}
+
+#section {
+  color: black;
+}
+
+fieldset {
+  align-items: baseline;
+  margin-top: 20px;
+}
+
+input {
+  border: 0;
+  border-bottom: 1px dashed black;
+}
+
+button {
+  background: #3d67c5;
+  color: white;
+  border: 0;
+}
+
+aside h2 {
+  text-align: center;
+  font-weight: bold;
+  font-size: larger;
+  text-transform: uppercase;
+  line-height: 3;
+}
+
+aside div {
+  background-color: lightgray;
+  font-size: smaller;
+  font-weight: 600;
+  height: 9vh;
+
+  box-sizing: border-box;
+  padding: 10px;
+  display: flex;
+  flex-direction: column;
+}
+
+.date {
+  display: flex;
+  align-items: flex-end;
+  flex-direction: row;
+  align-content: baseline position;
+  justify-content: flex-end;
+  font-size: smaller;
+}
+
+footer {
+  background: linear-gradient(45deg, rgba(7, 115, 137, 1) 49%, rgba(0, 143, 177, 1) 100%);
+  height: 13vh;
+  padding: 17px;
+  margin-top: 15px;
+  box-shadow: 5px 5px 8px #888888;
+  text-align: center;
+  margin-bottom: 15px;
+  font-size: smaller;
+}
+
+address {
+  margin-top: 25px;
+}
+
+a {
+  color: #3d67c5;
+}
+
+address a {
+  color: rgb(199, 0, 199);
 }
