@@ -90,3 +90,68 @@ code {
   border: 1px solid black;
   border-radius: 8px;
 }
+
+#ul1 {
+  height: 17vh;
+}
+
+#instruction2 {
+  height: 14vh;
+}
+
+ol {
+  height: 20vh;
+}
+
+#charttitle {
+  margin-bottom: 20px;
+}
+
+caption {
+  font-weight: bold;
+  font-style: oblique;
+}
+
+table {
+  width: 100%;
+  border-collapse: collapse;
+  text-align: center;
+  margin-bottom: 30px;
+  border-bottom: 3px solid #3d67c5;
+}
+
+caption {
+  font-weight: 500;
+  font-style: italic;
+  font-size: 1.3rem;
+}
+
+th {
+  background: #3d67c5;
+  border: 1px solid white;
+  padding: 20px 6px;
+  color: white;
+  font-size: 1.3rem;
+}
+
+td {
+  padding: 2vh 0;
+}
+
+tr:nth-child(odd) {
+  background-color: #f1f1f1;
+  border-top: 1px solid lightgrey;
+  border-bottom: 1px solid lightgray;
+}
+
+#valtest {
+  margin-bottom: 25px;
+}
+
+iframe {
+  border-radius: 17px;
+}
+
+section {
+  background-color: lightgray;
+}
